@@ -33,7 +33,7 @@ export default (props: HomeScreenProps): JSX.Element => {
   
   const imageProps = { src: heroSVG.toString() };
   const headerTitle = 'SecureSpace';
-  const startCallButtonText = 'Let's Start';
+  const startCallButtonText = 'Let\'s Start';
  
   
   return (
