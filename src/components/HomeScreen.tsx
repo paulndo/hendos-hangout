@@ -32,8 +32,8 @@ const imageStyleProps: IImageStyles = {
 export default (props: HomeScreenProps): JSX.Element => {
   
   const imageProps = { src: heroSVG.toString() };
-  const headerTitle = 'The Family Video Call';
-  const startCallButtonText = 'Let\'s go';
+  const headerTitle = 'SecureSpace';
+  const startCallButtonText = 'Let's Start';
  
   
   return (
@@ -49,7 +49,7 @@ export default (props: HomeScreenProps): JSX.Element => {
         </PrimaryButton>
       </Stack>
       <Image
-        alt="Welcome to the ACS Calling sample app"
+        alt="Welcome to SecureSpace"
         className={imgStyle}
         styles={imageStyleProps}
         {...imageProps}
